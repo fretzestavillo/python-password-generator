@@ -9,5 +9,5 @@ char = "ABCDEFGHIJKLMNOPQRSTUVWXYZ123456789`~!@#$%^&*()-_+={}[]|\:;\"'<>,.?/"
 for _ in range(number):
     password = ''
     for _ in range(length):
-        password += random.choice(char) 
-    print(password)
+        password += random.choice(char)
+    print('Password: ', password)
